@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TeamScore</string>
+
+    <string name="winner_Show">Winner</string>
+
+    <string name="won_by_Show">Won By</string>
+
+    <string name="Score_Show">0</string>
+
+    <string name="ShareText">Share!</string>
+
+    <string name="edittext_uri"> Enter Number </string>
+    <string name="button_uri"> Call a Friend</string>
+
+    <string name="edittext_loc"></string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="button_share">Share This Text</string>
+
+
+
+
+    <array name="backgrounds">
+
+        <item>boxing</item>
+        <item>baseball</item>
+        <item>basketball</item>
+        <item>cricket</item>
+        <item>nfl</item>
+        <item>soccer</item>
+        <item>tennis</item>
+
+    </array>
+
+    <string-array name="SportTittle">
+
+        <item>Boxing</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Cricket</item>
+        <item>NFL</item>
+        <item>Soccer</item>
+        <item>Tennis</item>
+
+
+    </string-array>
+
+    <array name="medalShow">
+        <item>gold_medal</item>
+        <item>medal_cup</item>
+        <item>thumbs_up</item>
+
+    </array>
+
+
+    <string-array name="medalTittle">
+
+        <item>Gold Medal</item>
+        <item>Gold Cup</item>
+        <item>Thumbs up</item>
+
+
+    </string-array>
+
+
+
+
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="team_header">Team</string>
+
+    <!-- Messages Preferences -->
+    <string name="team_title">Your favorite team</string>
+
+
+
+
+</resources>

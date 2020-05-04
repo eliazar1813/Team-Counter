@@ -1,0 +1,57 @@
+
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/team_header">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/team_title"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Sport Backgrounds">
+
+        <ListPreference
+            app:key = "teamBackground"
+            app:title="Choose sport background"
+            app:defaultValue="Boxing"
+            app:entries="@array/SportTittle"
+            app:entryValues="@array/backgrounds"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Choose Winner Medal">
+        <ListPreference
+            app:key = "medalBackground"
+            app:defaultValue="Gold Medal"
+            app:entries="@array/medalTittle"
+            app:entryValues="@array/medalShow"
+            app:useSimpleSummaryProvider="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Friend Contact Info">
+
+        <EditTextPreference
+            app:key="name"
+            app:title="Name"
+            app:useSimpleSummaryProvider="true"
+            />
+        <EditTextPreference
+            app:key="number"
+            app:title="Number"
+            app:useSimpleSummaryProvider="true"
+            />
+
+
+
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>
